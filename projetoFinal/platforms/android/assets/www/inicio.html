@@ -1,0 +1,20 @@
+<ion-view title=" Projeto PDM">
+
+	<ion-content class="padding">		
+		
+		<div class="row responsive-sm">
+  			<div class="col">
+  				<img ng-repeat="img in images" ng-src="{{img}}" style="padding-right: 2px" />
+  			</div>  			
+		</div>				
+		  		   
+	</ion-content>
+	
+</ion-view>
+
+ <div class="bar bar-footer">
+ 	<div class="button-bar">
+  		<a ng-click="selImages()" >Selecionar Imagem</a>
+  		<a ng-click="takePicture()" >Capturar Foto</a>  		
+	</div>
+</div>
